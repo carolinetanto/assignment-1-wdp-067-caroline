@@ -1,9 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+* {
+    padding: auto;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
-.navbar{
-    text-align: end;
+body {
+    background-color: aliceblue;
+}
+.navbar {
+    height: 40px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+.nav-list {
+    margin-left: 750px;
+}
+.nav-link {
+    padding-right: 20px;
+    color: black;
+}
+.bio-card {
+    margin-top: 50px;
+    padding: 10px;
+    width: 1170px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    background-color: white;
+}
+.form {
+    margin-top: 50px;
+    width: 1170px;
+}
+input, label {
+    display: block;
+    width: 100%;
 }

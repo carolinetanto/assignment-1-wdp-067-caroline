@@ -9,17 +9,19 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="" class="nav-link text">HOME</a>
-        <a href="" class="nav-link">PRODUCT</a>
-        <a href="" class="nav-link">GALLERY</a>
-        <a href="" class="nav-link">BLOG</a>
-        <a href="" class="nav-link">MY INVENTORY</a>
+        <div class="nav-list">
+            <a href="" class="nav-link">HOME</a>
+            <a href="" class="nav-link">PRODUCT</a>
+            <a href="" class="nav-link">GALLERY</a>
+            <a href="" class="nav-link">BLOG</a>
+            <a href="" class="nav-link">MY INVENTORY</a>
+        </div>
     </div>
     <div class="bio-card">
-        <div class="image">
-            <img src="/media/dev-icon.jpg" alt="" srcset="">
+        <div class="image bio-item">
+            <img src="/media/dev-icon.jpg" alt="" srcset="" style="width: 100px; height: auto; border-radius: 50%;">
         </div>
-        <div class="mid">
+        <div class="mid bio-item">
             <h3>Nama Anda</h3>
             <p>Front End Designer</p>
             <div class="buttons">
@@ -27,8 +29,8 @@
                 <a href="" class="btn green">Resume</a>
             </div>
         </div>
-        <div class="vertical-line"></div>
-        <div class="right">
+        <div class="vertical-line bio-item"></div>
+        <div class="right bio-item">
             <div class="text-formatted">
                 <p class="left-text">Availability</p>
                 <p class="right-text">Full Time</p>
@@ -51,20 +53,22 @@
             </div>
         </div>
     </div>
-    <form>
-        <label for="nama">Nama</label>
-        <input type="text" name="nama"><br>
-        <label for="role">Role</label>
-        <input type="text" name="role"><br>
-        <label for="availability">Availability</label>
-        <input type="text" name="availability"><br>
-        <label for="usia">Age</label>
-        <input type="number" name="usia"><br>
-        <label for="lokasi">Lokasi</label>
-        <input type="text" name="lokasi"><br>
-        <label for="years">Years Experience</label>
-        <input type="number" name="years"><br>
-        <input type="submit" name="submit"><br>
-    </form>
+    <div class="form">
+        <form>
+            <label for="nama">Nama</label>
+            <input type="text" name="nama"><br>
+            <label for="role">Role</label>
+            <input type="text" name="role"><br>
+            <label for="availability">Availability</label>
+            <input type="text" name="availability"><br>
+            <label for="usia">Age</label>
+            <input type="number" name="usia"><br>
+            <label for="lokasi">Lokasi</label>
+            <input type="text" name="lokasi"><br>
+            <label for="years">Years Experience</label>
+            <input type="number" name="years"><br>
+            <input type="submit" name="submit"><br>
+        </form>
+    </div>
 </body>
 </html>
